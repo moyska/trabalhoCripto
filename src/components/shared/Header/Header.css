@@ -1,0 +1,59 @@
+header {
+    position: relative;
+    width: 100vw;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header>* {
+    padding: 0 20px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.website-title {
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#homePage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.website-title>img {
+    margin-right: 10px;
+}
+
+.nav-obj:not(:last-child) {
+    margin-right: 5px;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 6px;
+    right: 20px;
+}
+
+.navigation a {
+    font-weight: bolder;
+}
+
+.nav-obj:hover>a {
+    border-color: #2b2bd5;
+    transition: 1s;
+    border-bottom-color: transparent;
+}
+
+.nav-obj a {
+    padding: 5px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid white;
+}
